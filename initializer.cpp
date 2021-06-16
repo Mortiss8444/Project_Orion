@@ -17,34 +17,35 @@ void appearance() {
  2.blahblahblahblahblahblahblahblah)";
   std::cout << logo << "\n" << description << std::endl;
 }
-// a foundation for future command_handler
-int command_handler(std::string &usr_input) {
-  // here we check whether a user finished session or not
-  while (usr_input != "endsession") {
-    // we simply say show this lovely sign and listen to user's commands
-    std::cout << "> ";
-    std::cin >> usr_input;
-    if (usr_input == "Input") {
-      // just an example of a command processing
-      std::cout << usr_input << std::endl;
-    } else if (usr_input == "endsession") {
-      //"endsession" execuded -> exit from while loop
-      std::cout << "Ending session..." << std::endl;
-    } else {
-      // trash processing
-      std::cout << "Error: " << usr_input << " not a command" << std::endl;
-    }
-  }
-  // if "endsession" command was executed close command_handler
-  return 0;
-}
 
+#include "handler.cpp"
+#include "tokenize.cpp"
+#include <vector>
+/* TO DO:
+ * 1. A diagram of entire project(functions, what do they do, their arguments
+ * and output)
+ * 2. A list of possible runtime errors which may be caused by some certain
+ * function
+ */
 int main() {
   // show interface
   appearance();
-  // run command_handler
-  std::string command;
-  command_handler(command);
+  /* Stages of processing user's input:
+   *	1. asign user's input to rawinput string, then tokenize it in
+   *input_handler
+   *	2. return a vector with tokenized input and asign it to "input" vector
+   *	3. send "input" vector and its size as arguments to command_handler
+   */
+  std::string rawinput = "";
+  const std::vector<std::string> terminator = {"endsession"};
+  std::vector<std::string> input = {};
+  // here we check whether a user finished session or not
+  while (input != terminator) {
+    std::cout << "> ";
+    std::getline(std::cin, rawinput);
+    input = input_handler(rawinput);
+    command_handler(input.size(), input);
+  }
   // if you will feel something unnatural - scream
-  return 0;
+  return EXIT_SUCCESS;
 }
