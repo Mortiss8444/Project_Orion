@@ -9,42 +9,40 @@ void appearance() {
 	/_/   /_/   \____/_/ /\___/\___/\__/____\____/_/  /_/\____/_/ /_/ 
 	                /___/             /_____/                         )";
   // well, simple logo and description...
-  const char *description =
-      R"( blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah
- blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah
- blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah
- 1.blahblahblahblahblahblah
- 2.blahblahblahblahblahblahblahblah)";
+  const std::string description =
+      "This is a demo version of a program, which allows you to analyze "
+      "satellite's behavior on world map \nList of available commands during "
+      "session:\n\tendsession "
+      "-> closing session\n\thelp -c -> list of all "
+      "commands\n\thelp -s -> list of all satellites\n\ttrack "
+      "<satl_name> -> printing sattelite's "
+      "current position on world map\nList of commands "
+      "available beyond session:\n\topensession -> starting "
+      "session\n\tclear -> cleaning screen\n\thelp -> list of all "
+      "commands\n\texit -> "
+      "closing programm\n";
   std::cout << logo << "\n" << description << std::endl;
 }
 
 #include "handler.cpp"
-#include "tokenize.cpp"
+#include "recorder.h"
 #include <vector>
-/* TO DO:
- * 1. A diagram of entire project(functions, what do they do, their arguments
- * and output)
- * 2. A list of possible runtime errors which may be caused by some certain
- * function
- */
+
 int main() {
   // show interface
   appearance();
-  /* Stages of processing user's input:
-   *	1. asign user's input to rawinput string, then tokenize it in
-   *input_handler
-   *	2. return a vector with tokenized input and asign it to "input" vector
-   *	3. send "input" vector and its size as arguments to command_handler
-   */
+  static std::vector<Datacell> storage = {};
   std::string rawinput = "";
-  const std::vector<std::string> terminator = {"endsession"};
-  std::vector<std::string> input = {};
+  const std::string terminator = {"endsession"};
   // here we check whether a user finished session or not
-  while (input != terminator) {
+  while (rawinput != terminator) {
     std::cout << "> ";
     std::getline(std::cin, rawinput);
-    input = input_handler(rawinput);
-    command_handler(input.size(), input);
+    command_handler(rawinput);
+    if (std::cin.eof()) {
+      std::cerr << "Terminating session..." << std::endl;
+      break;
+    }
   }
   // if you will feel something unnatural - scream
   return EXIT_SUCCESS;
