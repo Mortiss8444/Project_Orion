@@ -1,0 +1,9 @@
+﻿  GLmain.cpp
+C:\Горилла\GameDev\C++ lessons\OpenGL\Project_Orion\Project_Orion\shader.h(55,44): warning C4101: 'e': unreferenced local variable
+C:\Горилла\GameDev\C++ lessons\OpenGL\Project_Orion\Project_Orion\GLmain.cpp(143,137): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Горилла\GameDev\C++ lessons\OpenGL\Project_Orion\Project_Orion\GLmain.cpp(162,67): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Горилла\GameDev\C++ lessons\OpenGL\Project_Orion\Project_Orion\GLmain.cpp(203,23): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Горилла\GameDev\C++ lessons\OpenGL\Project_Orion\Project_Orion\GLmain.cpp(204,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Горилла\GameDev\C++ lessons\OpenGL\Project_Orion\Project_Orion\GLmain.cpp(214,91): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Горилла\GameDev\C++ lessons\OpenGL\Project_Orion\Project_Orion\GLmain.cpp(215,104): warning C4305: 'argument': truncation from 'double' to 'float'
+  Project_Orion.vcxproj -> C:\Горилла\GameDev\C++ lessons\OpenGL\Project_Orion\x64\Debug\Project_Orion.exe

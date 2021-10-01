@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\user\Desktop\Project_Orion\build\CMakeFiles\901b44e5e14a50de053c56a113833617\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{5DCCFAE3-0963-3B47-86CE-A29196F6AF2F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+^C:\USERS\USER\DESKTOP\PROJECT_ORION\BUILD\CMAKEFILES\901B44E5E14A50DE053C56A113833617\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/user/Desktop/Project_Orion -BC:/Users/user/Desktop/Project_Orion/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/user/Desktop/Project_Orion/build/ProjectOrion.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

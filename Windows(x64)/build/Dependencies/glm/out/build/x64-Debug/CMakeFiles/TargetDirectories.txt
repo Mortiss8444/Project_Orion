@@ -1,0 +1,3 @@
+C:/Горилла/GameDev/C++ lessons/OpenGL/Project_Orion/Dependencies/glm/out/build/x64-Debug/CMakeFiles/glm_dummy.dir
+C:/Горилла/GameDev/C++ lessons/OpenGL/Project_Orion/Dependencies/glm/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Горилла/GameDev/C++ lessons/OpenGL/Project_Orion/Dependencies/glm/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
