@@ -1,3 +1,0 @@
-# Hashes of file build rules.
-bc4feb4fcd40320bcb31cfb98c20dcf2 /home/wenjin/glfw/src/CMakeFiles/uninstall
-9467b7838ed428b5966f431163196da2 /home/wenjin/glfw/src/src/CMakeFiles/update_mappings

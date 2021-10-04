@@ -115,7 +115,6 @@ CMakeFiles/ProjectOrion.dir/GLmain.cpp.o: ../TextRenderer.h
 CMakeFiles/ProjectOrion.dir/GLmain.cpp.o: ../Texture.h
 CMakeFiles/ProjectOrion.dir/GLmain.cpp.o: ../math_lib.h
 CMakeFiles/ProjectOrion.dir/GLmain.cpp.o: ../shader.h
-CMakeFiles/ProjectOrion.dir/GLmain.cpp.o: /home/wenjin/glfw/include/GLFW/glfw3.h
 
 CMakeFiles/ProjectOrion.dir/Glob_vars.cpp.o: ../Glob_vars.cpp
 CMakeFiles/ProjectOrion.dir/Glob_vars.cpp.o: ../Sat_class.h
@@ -130,7 +129,6 @@ CMakeFiles/ProjectOrion.dir/Main.cpp.o: ../math_lib.h
 CMakeFiles/ProjectOrion.dir/MapRenderer.cpp.o: ../Dependencies/GLFW/include/glad/glad.h
 CMakeFiles/ProjectOrion.dir/MapRenderer.cpp.o: ../MapRenderer.cpp
 CMakeFiles/ProjectOrion.dir/MapRenderer.cpp.o: ../MapRenderer.h
-CMakeFiles/ProjectOrion.dir/MapRenderer.cpp.o: /home/wenjin/glfw/include/GLFW/glfw3.h
 
 CMakeFiles/ProjectOrion.dir/Sat_class.cpp.o: ../Sat_class.cpp
 CMakeFiles/ProjectOrion.dir/Sat_class.cpp.o: ../Sat_class.h
@@ -241,7 +239,6 @@ CMakeFiles/ProjectOrion.dir/TextRenderer.cpp.o: ../Dependencies/glm/vector_relat
 CMakeFiles/ProjectOrion.dir/TextRenderer.cpp.o: ../TextRenderer.cpp
 CMakeFiles/ProjectOrion.dir/TextRenderer.cpp.o: ../TextRenderer.h
 CMakeFiles/ProjectOrion.dir/TextRenderer.cpp.o: ../shader.h
-CMakeFiles/ProjectOrion.dir/TextRenderer.cpp.o: /home/wenjin/glfw/include/GLFW/glfw3.h
 CMakeFiles/ProjectOrion.dir/TextRenderer.cpp.o: /usr/local/include/freetype2/freetype/config/ftheader.h
 CMakeFiles/ProjectOrion.dir/TextRenderer.cpp.o: /usr/local/include/freetype2/ft2build.h
 

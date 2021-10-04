@@ -7,11 +7,11 @@ C_FLAGS = -g
 
 C_DEFINES = 
 
-C_INCLUDES = -I/usr/local/include/freetype2 -I/home/wenjin/glfw/include 
+C_INCLUDES = -I/home/wenjin/Desktop/Project_Orion/Dependancies/glfw -I/home/wenjin/Desktop/Project_Orion/Dependancies/glfw/src -I/home/wenjin/Desktop/Project_Orion/include -I/usr/local/include/freetype2 
 
-CXX_FLAGS = -g   -std=gnu++14
+CXX_FLAGS =  -pthread -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/usr/local/include/freetype2 -I/home/wenjin/glfw/include 
+CXX_INCLUDES = -I/home/wenjin/Desktop/Project_Orion/Dependancies/glfw -I/home/wenjin/Desktop/Project_Orion/Dependancies/glfw/src -I/home/wenjin/Desktop/Project_Orion/include -I/usr/local/include/freetype2 
 

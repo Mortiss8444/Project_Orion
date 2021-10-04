@@ -7,8 +7,13 @@ SET(CMAKE_BUILD_TYPE DEBUG)
 set(GLFW_BUILD_DOCS OFF CACHE BOOL "" FORCE)
 set(GLFW_BUILD_TESTS OFF CACHE BOOL "" FORCE)
 set(GLFW_BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
+SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pthread")
 
-add_subdirectory(/home/wenjin/glfw /home/wenjin/glfw/src)
+include_directories(${CMAKE_SOURCE_DIR}/Dependancies/glfw)
+link_directories(${CMAKE_BINARY_DIR}/lib/${CMAKE_BUILD_TYPE})
+
+include_directories(${CMAKE_SOURCE_DIR}/Dependancies/glfw/src)
+link_directories(${CMAKE_BINARY_DIR}/lib/${CMAKE_BUILD_TYPE})
 
 FIND_PACKAGE(OpenGL REQUIRED)
 FIND_PACKAGE(Freetype REQUIRED)
@@ -36,8 +41,11 @@ ${CMAKE_CURRENT_SOURCE_DIR}/tokenize.h
 ${CMAKE_CURRENT_SOURCE_DIR}/tokenize.cpp
 ${CMAKE_CURRENT_SOURCE_DIR}/glad.c)
 
-TARGET_LINK_LIBRARIES(ProjectOrion glfw)
-TARGET_LINK_LIBRARIES(ProjectOrion OpenGL::GL)
+target_link_libraries(ProjectOrion glfw OpenGL::GL ${CMAKE_DL_LIBS}) 
 target_link_libraries(ProjectOrion ${FREETYPE_LIBRARIES})
+target_include_directories(ProjectOrion PUBLIC
+                           $<BUILD_INTERFACE:${CMAKE_CURRENT_LIST_DIR}/include>
+                           $<INSTALL_INTERFACE:include>)
 target_include_directories(ProjectOrion PRIVATE ${FREETYPE_INCLUDE_DIRS})
+
 

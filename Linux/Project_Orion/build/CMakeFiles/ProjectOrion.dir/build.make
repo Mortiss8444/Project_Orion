@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wenjin/Project_Orion
+CMAKE_SOURCE_DIR = /home/wenjin/Desktop/Project_Orion
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wenjin/Project_Orion/build
+CMAKE_BINARY_DIR = /home/wenjin/Desktop/Project_Orion/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ProjectOrion.dir/depend.make
@@ -59,159 +59,159 @@ include CMakeFiles/ProjectOrion.dir/flags.make
 
 CMakeFiles/ProjectOrion.dir/Main.cpp.o: CMakeFiles/ProjectOrion.dir/flags.make
 CMakeFiles/ProjectOrion.dir/Main.cpp.o: ../Main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wenjin/Project_Orion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ProjectOrion.dir/Main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProjectOrion.dir/Main.cpp.o -c /home/wenjin/Project_Orion/Main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wenjin/Desktop/Project_Orion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ProjectOrion.dir/Main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProjectOrion.dir/Main.cpp.o -c /home/wenjin/Desktop/Project_Orion/Main.cpp
 
 CMakeFiles/ProjectOrion.dir/Main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProjectOrion.dir/Main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wenjin/Project_Orion/Main.cpp > CMakeFiles/ProjectOrion.dir/Main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wenjin/Desktop/Project_Orion/Main.cpp > CMakeFiles/ProjectOrion.dir/Main.cpp.i
 
 CMakeFiles/ProjectOrion.dir/Main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjectOrion.dir/Main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wenjin/Project_Orion/Main.cpp -o CMakeFiles/ProjectOrion.dir/Main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wenjin/Desktop/Project_Orion/Main.cpp -o CMakeFiles/ProjectOrion.dir/Main.cpp.s
 
 CMakeFiles/ProjectOrion.dir/handler.cpp.o: CMakeFiles/ProjectOrion.dir/flags.make
 CMakeFiles/ProjectOrion.dir/handler.cpp.o: ../handler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wenjin/Project_Orion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ProjectOrion.dir/handler.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProjectOrion.dir/handler.cpp.o -c /home/wenjin/Project_Orion/handler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wenjin/Desktop/Project_Orion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ProjectOrion.dir/handler.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProjectOrion.dir/handler.cpp.o -c /home/wenjin/Desktop/Project_Orion/handler.cpp
 
 CMakeFiles/ProjectOrion.dir/handler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProjectOrion.dir/handler.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wenjin/Project_Orion/handler.cpp > CMakeFiles/ProjectOrion.dir/handler.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wenjin/Desktop/Project_Orion/handler.cpp > CMakeFiles/ProjectOrion.dir/handler.cpp.i
 
 CMakeFiles/ProjectOrion.dir/handler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjectOrion.dir/handler.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wenjin/Project_Orion/handler.cpp -o CMakeFiles/ProjectOrion.dir/handler.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wenjin/Desktop/Project_Orion/handler.cpp -o CMakeFiles/ProjectOrion.dir/handler.cpp.s
 
 CMakeFiles/ProjectOrion.dir/Glob_vars.cpp.o: CMakeFiles/ProjectOrion.dir/flags.make
 CMakeFiles/ProjectOrion.dir/Glob_vars.cpp.o: ../Glob_vars.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wenjin/Project_Orion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ProjectOrion.dir/Glob_vars.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProjectOrion.dir/Glob_vars.cpp.o -c /home/wenjin/Project_Orion/Glob_vars.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wenjin/Desktop/Project_Orion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ProjectOrion.dir/Glob_vars.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProjectOrion.dir/Glob_vars.cpp.o -c /home/wenjin/Desktop/Project_Orion/Glob_vars.cpp
 
 CMakeFiles/ProjectOrion.dir/Glob_vars.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProjectOrion.dir/Glob_vars.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wenjin/Project_Orion/Glob_vars.cpp > CMakeFiles/ProjectOrion.dir/Glob_vars.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wenjin/Desktop/Project_Orion/Glob_vars.cpp > CMakeFiles/ProjectOrion.dir/Glob_vars.cpp.i
 
 CMakeFiles/ProjectOrion.dir/Glob_vars.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjectOrion.dir/Glob_vars.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wenjin/Project_Orion/Glob_vars.cpp -o CMakeFiles/ProjectOrion.dir/Glob_vars.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wenjin/Desktop/Project_Orion/Glob_vars.cpp -o CMakeFiles/ProjectOrion.dir/Glob_vars.cpp.s
 
 CMakeFiles/ProjectOrion.dir/GLmain.cpp.o: CMakeFiles/ProjectOrion.dir/flags.make
 CMakeFiles/ProjectOrion.dir/GLmain.cpp.o: ../GLmain.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wenjin/Project_Orion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ProjectOrion.dir/GLmain.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProjectOrion.dir/GLmain.cpp.o -c /home/wenjin/Project_Orion/GLmain.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wenjin/Desktop/Project_Orion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ProjectOrion.dir/GLmain.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProjectOrion.dir/GLmain.cpp.o -c /home/wenjin/Desktop/Project_Orion/GLmain.cpp
 
 CMakeFiles/ProjectOrion.dir/GLmain.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProjectOrion.dir/GLmain.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wenjin/Project_Orion/GLmain.cpp > CMakeFiles/ProjectOrion.dir/GLmain.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wenjin/Desktop/Project_Orion/GLmain.cpp > CMakeFiles/ProjectOrion.dir/GLmain.cpp.i
 
 CMakeFiles/ProjectOrion.dir/GLmain.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjectOrion.dir/GLmain.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wenjin/Project_Orion/GLmain.cpp -o CMakeFiles/ProjectOrion.dir/GLmain.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wenjin/Desktop/Project_Orion/GLmain.cpp -o CMakeFiles/ProjectOrion.dir/GLmain.cpp.s
 
 CMakeFiles/ProjectOrion.dir/TextRenderer.cpp.o: CMakeFiles/ProjectOrion.dir/flags.make
 CMakeFiles/ProjectOrion.dir/TextRenderer.cpp.o: ../TextRenderer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wenjin/Project_Orion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ProjectOrion.dir/TextRenderer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProjectOrion.dir/TextRenderer.cpp.o -c /home/wenjin/Project_Orion/TextRenderer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wenjin/Desktop/Project_Orion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ProjectOrion.dir/TextRenderer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProjectOrion.dir/TextRenderer.cpp.o -c /home/wenjin/Desktop/Project_Orion/TextRenderer.cpp
 
 CMakeFiles/ProjectOrion.dir/TextRenderer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProjectOrion.dir/TextRenderer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wenjin/Project_Orion/TextRenderer.cpp > CMakeFiles/ProjectOrion.dir/TextRenderer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wenjin/Desktop/Project_Orion/TextRenderer.cpp > CMakeFiles/ProjectOrion.dir/TextRenderer.cpp.i
 
 CMakeFiles/ProjectOrion.dir/TextRenderer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjectOrion.dir/TextRenderer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wenjin/Project_Orion/TextRenderer.cpp -o CMakeFiles/ProjectOrion.dir/TextRenderer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wenjin/Desktop/Project_Orion/TextRenderer.cpp -o CMakeFiles/ProjectOrion.dir/TextRenderer.cpp.s
 
 CMakeFiles/ProjectOrion.dir/Texture.cpp.o: CMakeFiles/ProjectOrion.dir/flags.make
 CMakeFiles/ProjectOrion.dir/Texture.cpp.o: ../Texture.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wenjin/Project_Orion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ProjectOrion.dir/Texture.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProjectOrion.dir/Texture.cpp.o -c /home/wenjin/Project_Orion/Texture.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wenjin/Desktop/Project_Orion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ProjectOrion.dir/Texture.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProjectOrion.dir/Texture.cpp.o -c /home/wenjin/Desktop/Project_Orion/Texture.cpp
 
 CMakeFiles/ProjectOrion.dir/Texture.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProjectOrion.dir/Texture.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wenjin/Project_Orion/Texture.cpp > CMakeFiles/ProjectOrion.dir/Texture.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wenjin/Desktop/Project_Orion/Texture.cpp > CMakeFiles/ProjectOrion.dir/Texture.cpp.i
 
 CMakeFiles/ProjectOrion.dir/Texture.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjectOrion.dir/Texture.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wenjin/Project_Orion/Texture.cpp -o CMakeFiles/ProjectOrion.dir/Texture.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wenjin/Desktop/Project_Orion/Texture.cpp -o CMakeFiles/ProjectOrion.dir/Texture.cpp.s
 
 CMakeFiles/ProjectOrion.dir/MapRenderer.cpp.o: CMakeFiles/ProjectOrion.dir/flags.make
 CMakeFiles/ProjectOrion.dir/MapRenderer.cpp.o: ../MapRenderer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wenjin/Project_Orion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ProjectOrion.dir/MapRenderer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProjectOrion.dir/MapRenderer.cpp.o -c /home/wenjin/Project_Orion/MapRenderer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wenjin/Desktop/Project_Orion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ProjectOrion.dir/MapRenderer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProjectOrion.dir/MapRenderer.cpp.o -c /home/wenjin/Desktop/Project_Orion/MapRenderer.cpp
 
 CMakeFiles/ProjectOrion.dir/MapRenderer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProjectOrion.dir/MapRenderer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wenjin/Project_Orion/MapRenderer.cpp > CMakeFiles/ProjectOrion.dir/MapRenderer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wenjin/Desktop/Project_Orion/MapRenderer.cpp > CMakeFiles/ProjectOrion.dir/MapRenderer.cpp.i
 
 CMakeFiles/ProjectOrion.dir/MapRenderer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjectOrion.dir/MapRenderer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wenjin/Project_Orion/MapRenderer.cpp -o CMakeFiles/ProjectOrion.dir/MapRenderer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wenjin/Desktop/Project_Orion/MapRenderer.cpp -o CMakeFiles/ProjectOrion.dir/MapRenderer.cpp.s
 
 CMakeFiles/ProjectOrion.dir/Sat_class.cpp.o: CMakeFiles/ProjectOrion.dir/flags.make
 CMakeFiles/ProjectOrion.dir/Sat_class.cpp.o: ../Sat_class.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wenjin/Project_Orion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ProjectOrion.dir/Sat_class.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProjectOrion.dir/Sat_class.cpp.o -c /home/wenjin/Project_Orion/Sat_class.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wenjin/Desktop/Project_Orion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ProjectOrion.dir/Sat_class.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProjectOrion.dir/Sat_class.cpp.o -c /home/wenjin/Desktop/Project_Orion/Sat_class.cpp
 
 CMakeFiles/ProjectOrion.dir/Sat_class.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProjectOrion.dir/Sat_class.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wenjin/Project_Orion/Sat_class.cpp > CMakeFiles/ProjectOrion.dir/Sat_class.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wenjin/Desktop/Project_Orion/Sat_class.cpp > CMakeFiles/ProjectOrion.dir/Sat_class.cpp.i
 
 CMakeFiles/ProjectOrion.dir/Sat_class.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjectOrion.dir/Sat_class.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wenjin/Project_Orion/Sat_class.cpp -o CMakeFiles/ProjectOrion.dir/Sat_class.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wenjin/Desktop/Project_Orion/Sat_class.cpp -o CMakeFiles/ProjectOrion.dir/Sat_class.cpp.s
 
 CMakeFiles/ProjectOrion.dir/math_lib.cpp.o: CMakeFiles/ProjectOrion.dir/flags.make
 CMakeFiles/ProjectOrion.dir/math_lib.cpp.o: ../math_lib.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wenjin/Project_Orion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ProjectOrion.dir/math_lib.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProjectOrion.dir/math_lib.cpp.o -c /home/wenjin/Project_Orion/math_lib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wenjin/Desktop/Project_Orion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ProjectOrion.dir/math_lib.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProjectOrion.dir/math_lib.cpp.o -c /home/wenjin/Desktop/Project_Orion/math_lib.cpp
 
 CMakeFiles/ProjectOrion.dir/math_lib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProjectOrion.dir/math_lib.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wenjin/Project_Orion/math_lib.cpp > CMakeFiles/ProjectOrion.dir/math_lib.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wenjin/Desktop/Project_Orion/math_lib.cpp > CMakeFiles/ProjectOrion.dir/math_lib.cpp.i
 
 CMakeFiles/ProjectOrion.dir/math_lib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjectOrion.dir/math_lib.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wenjin/Project_Orion/math_lib.cpp -o CMakeFiles/ProjectOrion.dir/math_lib.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wenjin/Desktop/Project_Orion/math_lib.cpp -o CMakeFiles/ProjectOrion.dir/math_lib.cpp.s
 
 CMakeFiles/ProjectOrion.dir/stb.cpp.o: CMakeFiles/ProjectOrion.dir/flags.make
 CMakeFiles/ProjectOrion.dir/stb.cpp.o: ../stb.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wenjin/Project_Orion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ProjectOrion.dir/stb.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProjectOrion.dir/stb.cpp.o -c /home/wenjin/Project_Orion/stb.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wenjin/Desktop/Project_Orion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ProjectOrion.dir/stb.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProjectOrion.dir/stb.cpp.o -c /home/wenjin/Desktop/Project_Orion/stb.cpp
 
 CMakeFiles/ProjectOrion.dir/stb.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProjectOrion.dir/stb.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wenjin/Project_Orion/stb.cpp > CMakeFiles/ProjectOrion.dir/stb.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wenjin/Desktop/Project_Orion/stb.cpp > CMakeFiles/ProjectOrion.dir/stb.cpp.i
 
 CMakeFiles/ProjectOrion.dir/stb.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjectOrion.dir/stb.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wenjin/Project_Orion/stb.cpp -o CMakeFiles/ProjectOrion.dir/stb.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wenjin/Desktop/Project_Orion/stb.cpp -o CMakeFiles/ProjectOrion.dir/stb.cpp.s
 
 CMakeFiles/ProjectOrion.dir/tokenize.cpp.o: CMakeFiles/ProjectOrion.dir/flags.make
 CMakeFiles/ProjectOrion.dir/tokenize.cpp.o: ../tokenize.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wenjin/Project_Orion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ProjectOrion.dir/tokenize.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProjectOrion.dir/tokenize.cpp.o -c /home/wenjin/Project_Orion/tokenize.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wenjin/Desktop/Project_Orion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ProjectOrion.dir/tokenize.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProjectOrion.dir/tokenize.cpp.o -c /home/wenjin/Desktop/Project_Orion/tokenize.cpp
 
 CMakeFiles/ProjectOrion.dir/tokenize.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProjectOrion.dir/tokenize.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wenjin/Project_Orion/tokenize.cpp > CMakeFiles/ProjectOrion.dir/tokenize.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wenjin/Desktop/Project_Orion/tokenize.cpp > CMakeFiles/ProjectOrion.dir/tokenize.cpp.i
 
 CMakeFiles/ProjectOrion.dir/tokenize.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjectOrion.dir/tokenize.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wenjin/Project_Orion/tokenize.cpp -o CMakeFiles/ProjectOrion.dir/tokenize.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wenjin/Desktop/Project_Orion/tokenize.cpp -o CMakeFiles/ProjectOrion.dir/tokenize.cpp.s
 
 CMakeFiles/ProjectOrion.dir/glad.c.o: CMakeFiles/ProjectOrion.dir/flags.make
 CMakeFiles/ProjectOrion.dir/glad.c.o: ../glad.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wenjin/Project_Orion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/ProjectOrion.dir/glad.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ProjectOrion.dir/glad.c.o   -c /home/wenjin/Project_Orion/glad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wenjin/Desktop/Project_Orion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/ProjectOrion.dir/glad.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ProjectOrion.dir/glad.c.o   -c /home/wenjin/Desktop/Project_Orion/glad.c
 
 CMakeFiles/ProjectOrion.dir/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ProjectOrion.dir/glad.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wenjin/Project_Orion/glad.c > CMakeFiles/ProjectOrion.dir/glad.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wenjin/Desktop/Project_Orion/glad.c > CMakeFiles/ProjectOrion.dir/glad.c.i
 
 CMakeFiles/ProjectOrion.dir/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ProjectOrion.dir/glad.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wenjin/Project_Orion/glad.c -o CMakeFiles/ProjectOrion.dir/glad.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wenjin/Desktop/Project_Orion/glad.c -o CMakeFiles/ProjectOrion.dir/glad.c.s
 
 # Object files for target ProjectOrion
 ProjectOrion_OBJECTS = \
@@ -244,14 +244,11 @@ ProjectOrion: CMakeFiles/ProjectOrion.dir/stb.cpp.o
 ProjectOrion: CMakeFiles/ProjectOrion.dir/tokenize.cpp.o
 ProjectOrion: CMakeFiles/ProjectOrion.dir/glad.c.o
 ProjectOrion: CMakeFiles/ProjectOrion.dir/build.make
-ProjectOrion: /home/wenjin/glfw/src/src/libglfw3.a
 ProjectOrion: /usr/lib/x86_64-linux-gnu/libfreetype.so
-ProjectOrion: /usr/lib/x86_64-linux-gnu/librt.so
-ProjectOrion: /usr/lib/x86_64-linux-gnu/libm.so
 ProjectOrion: /usr/lib/x86_64-linux-gnu/libGLX.so
 ProjectOrion: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 ProjectOrion: CMakeFiles/ProjectOrion.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wenjin/Project_Orion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable ProjectOrion"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wenjin/Desktop/Project_Orion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable ProjectOrion"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ProjectOrion.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -264,6 +261,6 @@ CMakeFiles/ProjectOrion.dir/clean:
 .PHONY : CMakeFiles/ProjectOrion.dir/clean
 
 CMakeFiles/ProjectOrion.dir/depend:
-	cd /home/wenjin/Project_Orion/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wenjin/Project_Orion /home/wenjin/Project_Orion /home/wenjin/Project_Orion/build /home/wenjin/Project_Orion/build /home/wenjin/Project_Orion/build/CMakeFiles/ProjectOrion.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/wenjin/Desktop/Project_Orion/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wenjin/Desktop/Project_Orion /home/wenjin/Desktop/Project_Orion /home/wenjin/Desktop/Project_Orion/build /home/wenjin/Desktop/Project_Orion/build /home/wenjin/Desktop/Project_Orion/build/CMakeFiles/ProjectOrion.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ProjectOrion.dir/depend
 

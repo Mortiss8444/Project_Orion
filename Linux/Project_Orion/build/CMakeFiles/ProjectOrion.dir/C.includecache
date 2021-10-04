@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/wenjin/Project_Orion/Dependencies/GLFW/include/glad/glad.h
+/home/wenjin/Desktop/Project_Orion/Dependencies/GLFW/include/glad/glad.h
 KHR/khrplatform.h
 -
 
-/home/wenjin/Project_Orion/glad.c
+/home/wenjin/Desktop/Project_Orion/glad.c
 stdio.h
 -
 stdlib.h
@@ -18,7 +18,7 @@ stdlib.h
 string.h
 -
 Dependencies/GLFW/include/glad/glad.h
-/home/wenjin/Project_Orion/Dependencies/GLFW/include/glad/glad.h
+/home/wenjin/Desktop/Project_Orion/Dependencies/GLFW/include/glad/glad.h
 windows.h
 -
 winapifamily.h
