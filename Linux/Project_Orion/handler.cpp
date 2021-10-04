@@ -197,7 +197,7 @@ public:
             "\tendsession -> closing session\n"
             "\thelp -c -> list of all commands\n"
             "\thelp -s -> list of all satellites\n"
-            "\ttrack <satl_name> -> prints a sattellite on a world map\n"
+            "\ttrack <satl_name> -> prints a satellite on a world map\n"
             "\tstop <satl_name> -> removes a satellite from a world map\n";
         m_message = input_handler(s_message);
         return m_message;
