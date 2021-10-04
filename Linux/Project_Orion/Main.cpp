@@ -17,7 +17,7 @@ namespace Project_Orion
             "\tendsession -> closing session\n"
             "\thelp -c -> list of all commands\n"
             "\thelp -s -> list of all satellites\n"
-            "\ttrack <satl_name> -> prints a sattellite on a world map\n"
+            "\ttrack <satl_name> -> prints a satellite on a world map\n"
             "\tstop <satl_name> -> removes a satellite from a world map\n";
         std::cout << logo << "\n" << description << std::endl;
     }
