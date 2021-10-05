@@ -32,4 +32,14 @@ Start by cloning the repository with ```git clone --recursive https://github.com
   
 1. Add to debug folder Fonts and Shaders folders and also don't forget to add freetype.dll
 2. So after pressing a debug button, you should be able to see following:  
-![alt text](https://github.com/Mortiss8444/Project_Orion/blob/90c2d414e9d19e5695192a3a0708ce8e40c6d208/Pictures/Debug.jpg?raw=true)
+![Debug](https://user-images.githubusercontent.com/62875127/135939878-c1260f40-6ec7-484a-b17d-be84cfc0cc40.jpg)  
+### <ins> Linux </ins>  
+*Note: Since this program was tested only on Ubuntu 20.04.2 and this is unknown how it will behave on other Linux distributions, so following the next steps assumes that you have Ubuntu 20.04.2 or higher*  
+1. Just clone the reposetory and execute ```./ProjectOrion``` from build folder
+2. If you want to modify code 
+	1) Clean build folder
+	2) Modify code
+	3) Execute ```cmake ..``` and ```cmake --build``` from build folder  
+	4) Run  ```./ProjectOrion```  
+
+And also keep in mind that you might need to install development packages for your Linux distribution, for Ubuntu these are ```xorg-dev``` packages which can be downloaded by ```sudo apt install xorg-dev```
