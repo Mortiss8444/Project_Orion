@@ -49,7 +49,7 @@ And also keep in mind that you might need to install development packages for yo
 While using the program, you might see the three types of outcome messages:  
 ```[Info]:``` - information about what operation the program is performing  
 ```[Error]:``` - invalid data has been passed to the program   
-```[Usage]:``` - a command has been recognized, but arguments were invalid   
+```[Usage]:``` - a hint how a command should be written     
 ### List of commands  
 ```endsession``` - close both handler thread and GL thread  
 ```help -c``` - display list of all commands  
