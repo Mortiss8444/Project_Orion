@@ -5,7 +5,7 @@
 	 / ____/ /  / /_/ / / /  __/ /__/ /_    / /_/ / /  / / /_/ / / / /
 	/_/   /_/   \____/_/ /\___/\___/\__/____\____/_/  /_/\____/_/ /_/ 
 	                /___/             /_____/                        
-Project_Orion is a cross-platform CLI purpose of which is to analyze satellite's behaviour on a world map. <hr />
+Project_Orion is a cross-platform CLI purpose of which is to analyze a satellite's behaviour on a world map. <hr />
 ## Installation guide  
 **The tech stack:**  
   For Windows: Visual Studio 2019, C++ 14, OpenGL 3.3, CMake 3.16.3      
@@ -88,4 +88,4 @@ and in ```command_handler()``` add
 ```
 - **Q: How many satellites can I track at one time?**
 
-  - A: Currently, 10. But you can increase it until you won't be able to see something on map or even more... It depends only on size of buffer which holds all satellite related data and amount of satellite names in a vector of strings     
+  - A: Currently, 10. But you can increase it until you won't be able to see something on map or even more... It depends only on size of buffer which holds all satellite relat
