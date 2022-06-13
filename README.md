@@ -5,7 +5,7 @@
 	 / ____/ /  / /_/ / / /  __/ /__/ /_    / /_/ / /  / / /_/ / / / /
 	/_/   /_/   \____/_/ /\___/\___/\__/____\____/_/  /_/\____/_/ /_/ 
 	                /___/             /_____/                        
-Project_Orion is a cross-platform CLI, purpose of which is to analyze a satellite's behaviour on a world map. <hr />
+Project_Orion is a cross-platform CLI, purpose of which is to analyze a satellite's behavior on a world map. <hr />
 ## Installation guide  
 **The tech stack:**  
   For Windows: Visual Studio 2019, C++ 14, OpenGL 3.3, CMake 3.16.3      
@@ -36,7 +36,7 @@ Start by cloning the repository with ```git clone --recursive https://github.com
 ![Debug](https://user-images.githubusercontent.com/62875127/135939878-c1260f40-6ec7-484a-b17d-be84cfc0cc40.jpg)  
 ### <ins> Linux </ins>  
 *Note: Since this program has only been tested on Ubuntu 20.04.2 and it is not known how it will behave on other Linux distributions, the following steps below assume that you have Ubuntu 20.04.2 or higher*  
-1. Just clone the reposetory and execute ```./ProjectOrion``` from build folder
+1. Just clone the repository and execute ```./ProjectOrion``` from build folder
 2. Or if you want to modify code 
 	1) Clean build folder
 	2) Modify code
@@ -59,9 +59,9 @@ While using the program, you might see the three types of outcome messages:
 ```stop <satellite_name>``` - remove a satellite from a world map  
 ![ezgif com-gif-maker (4)](https://user-images.githubusercontent.com/62875127/136285349-3df06424-4661-44b9-8fed-481d49108027.gif)  
 ## Q&A section  
-- **Q: Does the program display accuratly a satellite?**  
+- **Q: Does the program display accurately a satellite?**  
 
-  - A: Yes, the program uses spherical mercator projection which is commonly used in web applications including Google Maps and gives accurate pixel coordinates, but since our map has smaller South Pole than Google Maps, then negative latitude will look like it's been shifted by 20 degrees relatively to latitude in Google Maps, so it depends only from picture, actual algorithm works properly  
+  - A: Yes, the program uses spherical Mercator projection which is commonly used in web applications including Google Maps and gives accurate pixel coordinates, but since our map has smaller South Pole than Google Maps, then negative latitude will look like it's been shifted by 20 degrees relatively to latitude in Google Maps, so it depends only from picture, actual algorithm works properly  
 - **Q: How to create a new command?**  
 
 ```C++
@@ -88,4 +88,4 @@ and in ```command_handler()``` add
 ```
 - **Q: How many satellites can I track at one time?**
 
-  - A: Currently, 10. But you can increase it until you won't be able to see something on map or even more... It depends only on size of buffer which holds all satellite relat
+  - A: Currently, 10. But you can increase it until you won't be able to see something on map or even more... It depends only on size of buffer which holds all satellite data
